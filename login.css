@@ -21,9 +21,6 @@
 }
 .container2{
     background-color: black;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex-flow: column;
     width: 650px;
     padding: 36px;
 }
@@ -32,8 +29,8 @@
     width: 40px;
     padding-bottom: 12px;
 }
-.text1{
-    font-size: 40px;
+#text1{
+    font-size: 60px;
     font-weight: bolder;
-    margin: 48 0;
+    padding: 48 0;
 }
