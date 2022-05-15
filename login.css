@@ -1,21 +1,39 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
 }
 
 .container{
     display: flex;
 }
 .container1{
-    width: 800px;
+    width: 900px;
     background-image: url(login.png);
 }
-.leftlogo{
-    align-items: center;
+.leftlogo img{
+    width: 40%;
+    height: 40%;
+    justify-content: center;
+    display: block;
+    margin:30%;
 }
 .container2{
     background-color: black;
     flex-direction: column;
     flex-wrap: wrap;
     flex-flow: column;
+    width: 650px;
+    padding: 36px;
+}
+.rightlogo img{
+    height: 40px;
+    width: 40px;
+    padding-bottom: 12px;
+}
+.text1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 48 0;
 }
