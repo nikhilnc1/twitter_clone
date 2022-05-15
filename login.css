@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+}
+.container1{
+    width: 800px;
+    background-image: url(login.png);
+}
+.leftlogo{
+    align-items: center;
+}
+.container2{
+    background-color: black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
